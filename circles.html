@@ -2,9 +2,18 @@
 <html>
 <head>
 	<title>Circles</title>
+	<!-- SCRIPT A: PREVENTS FOUC -->
+	<script type="text/javascript">
+    var elm=document.getElementsByTagName("html")[0];
+    elm.style.display="none";
+    document.addEventListener("DOMContentLoaded",function(event) { elm.style.display="block"; });
+	</script>
+	<!-- SCRIPT A -->
 	<script type="text/javascript" src="paper-full.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.12/howler.js"></script>
 	<link rel="stylesheet" type="text/css" href="circles.css">
+</head>
+<body>
 	<script type="text/paperscript" canvas="myCanvas">
 
 	var keyData = {
@@ -198,9 +207,17 @@
 	
 
 </script>
-
-</head>
-<body>
+  <div class="btn_container">
+    <a class="open_button" href="#">Help</a>
+  </div>
+  <div class="modal_info">
+    <h1>How To Play</h1>
+    <p>Every character on your keyboard(A ~ Z) corresponds to a sound. Have fun making music!</p>
+  </div>
+  <div class="modal_overlay">
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script type="text/javascript" src="circles.js"></script>
 <canvas id="myCanvas" resize></canvas>
 </body>
 </html>
