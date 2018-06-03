@@ -19,16 +19,23 @@ h1 {
   font-size: 40px;
 }
 
+p {
+  color: #474544;
+  font-family: 'Palanquin', Arial, sans-serif;
+  font-size: 17px;
+}
+
+/*for opening "get started" modal*/
 .modal {
   opacity: 0;
   padding: 50px;
   position: absolute;
   z-index: 1100;
-  -webkit-transition: opacity 600ms linear 400ms;
-  -moz-transition: opacity 600ms linear 400ms;
-  -ms-transition: opacity 600ms linear 400ms;
-  -o-transition: opacity 600ms linear 400ms;
-  transition: opacity 600ms linear 400ms;
+  -webkit-transition: opacity 600ms linear 100ms;
+  -moz-transition: opacity 600ms linear 100ms;
+  -ms-transition: opacity 600ms linear 100ms;
+  -o-transition: opacity 600ms linear 100ms;
+  transition: opacity 600ms linear 100ms;
 }
 
 .modal_info {
@@ -89,6 +96,7 @@ h1 {
 
 a.open_button {
   color: #FFFFFF;
+  width: 140px;
   letter-spacing: 2px;
   line-height: 33px;
   font-family: 'Helvetica', Arial, sans-serif;
@@ -123,11 +131,11 @@ button.modal_close {
   position: absolute;
   right: 30px;
   top: 30px;
-  -webkit-transition: -webkit-transform 400ms;
-  -moz-transition: -moz-transform 400ms;
-  -ms-transition: -ms-transform 400ms;
-  -o-transition: -o-transform 400ms;
-  transition: transform 400ms;
+  -webkit-transition: -webkit-transform 200ms;
+  -moz-transition: -moz-transform 200ms;
+  -ms-transition: -ms-transform 200ms;
+  -o-transition: -o-transform 200ms;
+  transition: transform 200ms;
 }
 
 button.modal_close:hover {
