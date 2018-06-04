@@ -3,13 +3,17 @@
 1) Circles.html (visit khairulslt.me to try)
 2) password.py (A password generator)
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-For password.py, you are goign to need Python3 & the Pyperclip module
+* For password.py, you are going to need Python3 & the Pyperclip module
+* Run with Windows Powershell or other cmd line terminals
+* To run password.py: cd into the directory you saved password.py into and type this into the terminal
+```
+python password.py
+```
+
+For password.py, you are going to need Python3 & the Pyperclip module
 Run with Windows Powershell (python password.py)
 ```
 pip install pyperclip
