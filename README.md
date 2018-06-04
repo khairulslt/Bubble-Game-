@@ -6,6 +6,13 @@
 
 ### Prerequisites
 
+* For password.py, you are going to need Python3 & the Pyperclip module
+* Run with Windows Powershell or other cmd line terminals
+* cd into the directory you saved password.py into and type this into the terminal
+```
+python password.py
+```
+
 For password.py, you are going to need Python3 & the Pyperclip module
 Run with Windows Powershell (python password.py)
 ```
