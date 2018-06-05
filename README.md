@@ -13,7 +13,7 @@
 * Added Modal buttons to kickstart a new user's experience
 * Edited visibility (scale/hue) of the bubbles
 * Cleaned up code, added a small JS script to prevent FOUC
-* Was first deployed from scratch on a Heroku Server 
+* Was first deployed from scratch on a Heroku Server (index.php used for deployment to Heroku)
 * Finalized deployment to a Nginx Server on a Ubuntu Remote Desktop(Digital Ocean)
 
 ## Built With
