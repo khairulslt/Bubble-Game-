@@ -94,6 +94,45 @@ p {
   background: none;
 }
 
+.github_link {
+  background: #363D4E;
+  display: inline-block;
+  height: 33px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  vertical-align: middle;
+  whitespace: normal;
+  width: 86px;
+  z-index: 1000;
+  -webkit-transition: opacity 100ms linear;
+  -moz-transition: opacity 100ms linear;
+  -ms-transition: opacity 100ms linear;
+  -o-transition: opacity 100ms linear;
+  transition: opacity 100ms linear;
+  opacity: 0.6;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+a.github_link {
+  color: #FFFFFF;
+  width: 140px;
+  letter-spacing: 2px;
+  line-height: 33px;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;    
+  text-transform: uppercase;
+  text-align: center;
+}
+
+a.github_link:hover {
+  background: #3E465A;
+  opacity: 1.0;
+}
 a.open_button {
   color: #FFFFFF;
   width: 140px;
