@@ -3,6 +3,7 @@
 
 ### Introduction
 
+* Main File: circles.html
 * Built with Colt Steele's Web Dev Bootcamp
 * A Web Application that allows you to make music with just your keyboard! 
 * Each key corresponds to a magical colourful bubble!
@@ -12,7 +13,8 @@
 * Added Modal buttons to kickstart a new user's experience
 * Edited visibility (scale/hue) of the bubbles
 * Cleaned up code, added a small JS script to prevent FOUC
-* Deployed from scratch with a Nginx Server on a Ubuntu Remote Desktop(Digital Ocean)
+* Was first deployed from scratch on a Heroku Server 
+* Finalized deployment to a Nginx Server on a Ubuntu Remote Desktop(Digital Ocean)
 
 ## Built With
 
@@ -23,3 +25,4 @@
 ## Authors
 
 Mohammad Khairul Bin Abdullah
+
