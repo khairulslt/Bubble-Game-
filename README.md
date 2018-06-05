@@ -1,29 +1,23 @@
-# Project Title(s)
-
-1) Circles.html (visit khairulslt.me to try)
-2) password.py (A password generator)
+# Bubble Game!
 
 
-### Prerequisites
+### Introduction
 
-* For password.py, you are going to need Python3 & the Pyperclip module
-* Run with Windows Powershell or other cmd line terminals
-* To run password.py: cd into the directory you saved password.py into and type this into the terminal
-```
-python password.py
-```
+* Built with Colt Steele's Web Dev Bootcamp
+* A Web Application that allows you to make music with just your keyboard! 
+* Each key corresponds to a magical colourful bubble!
+* Try it @ khairulslt.me
 
-For password.py, you are going to need Python3 & the Pyperclip module
-Run with Windows Powershell (python password.py)
-```
-pip install pyperclip
-```
+### Improvements
+* Added Modal buttons to kickstart a new user's experience
+* Edited visibility (scale/hue) of the bubbles
+* Cleaned up code, added a small JS script to prevent FOUC
+* Deployed from scratch with a Nginx Server on a Ubuntu Remote Desktop(Digital Ocean)
 
 ## Built With
 
 * [HTML/CSS/Javascript] - Used to render Circles webpage
 * [PaperJS/HowlerJS/JQuery) - Code Dependencies
-* [Python] - Used to generate Password.py
 
 
 ## Authors
