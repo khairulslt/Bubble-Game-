@@ -1,4 +1,4 @@
-# Bubble Game!
+# Bubble Wrap!
 
 
 ### Introduction
