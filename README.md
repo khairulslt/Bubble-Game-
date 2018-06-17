@@ -1,4 +1,4 @@
-# Bubble Game!
+# Bubble Wrap!
 
 
 ### Introduction
@@ -24,5 +24,5 @@
 
 ## Authors
 
-Mohammad Khairul Bin Abdullah
+Khaislt
 
