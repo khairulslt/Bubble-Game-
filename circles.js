@@ -1,12 +1,7 @@
 (function(){
   var $content = $('.modal_info').detach();
 
-  $('.open_button').on('click', function(e){
-    modal.open({
-      content: $content,
-      width: 540,
-      height: 270,
-    });
+  $('.open_button').on('click',function(e){modal.open({content: $content,width: 540,height: 270,});
     $content.addClass('modal_content');
     $('.modal, .modal_overlay').addClass('display');
     $('.open_button').addClass('load');
@@ -57,3 +52,4 @@ var modal = (function(){
     }
   };
 }());
+
