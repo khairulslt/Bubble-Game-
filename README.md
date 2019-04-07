@@ -4,10 +4,9 @@
 ### Introduction
 
 * Main File: circles.html
-* Built with Colt Steele's Web Dev Bootcamp
 * A Web Application that allows you to make music with just your keyboard! 
 * Each key corresponds to a magical colourful bubble!
-* Try it @ khairulslt.me
+* Try it @ www.khairulslt.me
 
 ### Improvements
 * Added Modal buttons to kickstart a new user's experience
