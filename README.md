@@ -1,7 +1,7 @@
+# NOTE: NO LONGER LIVE AS OF 2020
+
+
 # Bubble Wrap!
-
-
-# NO LONGER LIVE AS OF 2020
 
 
 ### Introduction
